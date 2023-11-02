@@ -1,4 +1,4 @@
-package org.example.predicate;
+package org.example.lambda.predicate;
 
 /*
 Definition of predicate

@@ -1,4 +1,4 @@
-package org.example.predicate;
+package org.example.lambda.predicate;
 
 import java.util.ArrayList;
 import java.util.function.Predicate;
