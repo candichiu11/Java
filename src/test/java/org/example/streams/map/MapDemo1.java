@@ -18,7 +18,7 @@ public class MapDemo1 {
 
         // stream
         vehiclesUpperCase = vehicles.stream().map((vehicleLower) ->
-                {return vehicleLower.toUpperCase();})
+                        vehicleLower.toUpperCase())
                 .collect(Collectors.toList());
 
 

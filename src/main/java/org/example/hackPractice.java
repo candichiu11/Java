@@ -59,9 +59,7 @@ public class hackPractice {
 
         // Use Java streams to group and collect IDs
         Map<String, List<Process>> groupIds = processList.stream()
-                .collect(Collectors.groupingBy(process -> {
-                    return process.getId();
-                }));
+                .collect(Collectors.groupingBy(Process::getId));
 
         // Print the grouped IDs
         groupIds.forEach((id, list) -> {
